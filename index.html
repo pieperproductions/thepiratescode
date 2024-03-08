@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pirate's Code</title>
+  <style>
+    body {
+      font-family: "IM Fell English", serif;
+      background-color: #f5deb3;
+      color: #000;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .tab {
+      border: 1px solid #ccc;
+      background-color: #e0d0b7;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .tab.active {
+      background-color: #d6c6af;
+    }
+    .tab-content {
+      display: none;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #f3f0e9;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap">
+</head>
+<body>
+  <h1>The Pirate's Code</h1>
+  <div class="tabs">
+    <div class="tab active" onclick="openTab('tab1')">I</div>
+    <div class="tab" onclick="openTab('tab2')">II</div>
+    <div class="tab" onclick="openTab('tab3')">III</div>
+    <div class="tab" onclick="openTab('tab4')">IV</div>
+    <div class="tab" onclick="openTab('tab5')">V</div>
+    <div class="tab" onclick="openTab('tab6')">VI</div>
+    <div class="tab" onclick="openTab('tab7')">VII</div>
+    <div class="tab" onclick="openTab('tab8')">VIII</div>
+    <div class="tab" onclick="openTab('tab9')">IX</div>
+    <div class="tab" onclick="openTab('tab10')">X</div>
+    <div class="tab" onclick="openTab('tab11')">XI</div>
+  </div>
+  <div id="tab1" class="tab-content active">
+    <h2>Article I: The Pirate's Code</h2>
+    <p>This be the sacred law o' the brethren of the coast, set forth to govern the conduct o' all pirates. It be the cornerstone o' pirate society, bindin' every buccaneer to a set o' rules and principles that ensure order and unity aboard a pirate vessel. Without the Pirate Code, chaos would reign supreme upon the seas, and the pirate way o' life would descend into anarchy and ruin.</p>
+  </div>
+  <div id="tab2" class="tab-content">
+    <h2>Article II: The Ship's Captain</h2>
+    <p>The ship's captain be the ultimate authority aboard a pirate vessel, entrusted with the responsibility of leadin' the crew to glory and plunder. His word be law, and his orders must be obeyed without question or hesitation. A captain's leadership be crucial to the success o' any pirate venture, and his decisions can mean the difference between triumph and disaster on the high seas.</p>
+  </div>
+  <div id="tab3" class="tab-content">
+    <h2>Article III: The Division of Plunder</h2>
+    <p>When the spoils o' piracy be taken, they must be fairly divided amongst the crew, accordin' to the articles agreed upon aforehand. Each pirate be entitled to their fair share o' the loot, whether it be gold, jewels, or other treasures. The division o' plunder be a sacred tradition among pirates, upholdin' the principle o' equality and solidarity among the brethren.</p>
+  </div>
+  <div id="tab4" class="tab-content">
+    <h2>Article IV: Justice Amongst Pirates</h2>
+    <p>Should a dispute arise among the crew, it be the duty o' the captain and his officers to ensure that justice be served. Fair and impartial judgment must be rendered, and any transgressions against the Pirate Code must be swiftly dealt with. Discipline be essential to maintainin' order aboard a pirate ship, and justice be the cornerstone o' pirate law.</p>
+  </div>
+  <div id="tab5" class="tab-content">
+    <h2>Article V: Crew Disputes</h2>
+    <p>When disputes arise between members of the crew, they be resolved through peaceful means or, if necessary, by the sword. However, all disputes be settled aboard ship, and no pirate be permitted to take matters into their own hands on land. Quarrels be discouraged, for they weaken the crew and endanger the success o' the voyage.</p>
+  </div>
+  <div id="tab6" class="tab-content">
+    <h2>Article VI: Conflict During Raids</h2>
+    <p>During raids and plunderin' expeditions, every pirate be expected to conduct themselves with courage and ferocity. They must show no mercy to their enemies and fight with all their might to claim victory. Cowardice and treachery be punishable by maroonin' or worse, for a cowardly pirate be a liability to the crew and a disgrace to the brethren.</p>
+  </div>
+  <div id="tab7" class="tab-content">
+    <h2>Article VII: The Captain's Authority</h2>
+    <p>The authority o' the captain be absolute and unquestioned, for he be the master o' the ship and the leader o' the crew. His orders must be obeyed without question or hesitation, and any defiance be met with swift and severe punishment. A captain's authority be the linchpin o' pirate society, and his leadership be vital to the success o' any voyage.</p>
+  </div>
+  <div id="tab8" class="tab-content">
+    <h2>Article VIII: Desertion and Abandonment</h2>
+    <p>Any pirate who deserts their post or abandons their ship in times o' peril be branded a coward and a traitor. Desertion be a grave offense against the Pirate Code, punishable by maroonin' or death. Loyalty to the crew and the ship be paramount, and any pirate who forsakes their comrades be cast out from the brethren forever.</p>
+  </div>
+  <div id="tab9" class="tab-content">
+    <h2>Article IX: Dueling Amongst Pirates</h2>
+    <p>Should disputes arise between pirates that cannot be resolved through peaceful means, they may be settled through duelin'. However, duelin' be a last resort, and all efforts should be made to reconcile differences before takin' up arms against a fellow buccaneer. The code o' honor be paramount in duelin', and all parties must abide by the rules and regulations set forth by the captain and his officers.</p>
+  </div>
+  <div id="tab10" class="tab-content">
+    <h2>Article X: The Ships Articles</h2>
+    <p>The ship's articles be the written agreement between the captain and the crew, detailin' the terms and conditions o' their service aboard the vessel. They cover matters such as shares o' plunder, discipline, and the division o' labor aboard ship. The ship's articles be sacred to all pirates, and any breach o' contract be met with severe punishment.</p>
+  </div>
+  <div id="tab11" class="tab-content">
+    <h2>Article XI: Parley</h2>
+    <p>Parley be a sacred tradition among pirates, allowin' for the peaceful resolution o' disputes between ships and crews. When parley be called, all hostilities cease, and the captains o' the respective vessels meet to negotiate terms. However, parley be governed by strict rules and regulations, and any violation be met with swift and severe retribution.</p>
+  </div>
+  <script>
+    function openTab(tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tab");
+      for (i = 0; i < tablinks.length; i++) {        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      event.currentTarget.className += " active";
+    }
+  </script>
+</body>
+</html>
+
+  
